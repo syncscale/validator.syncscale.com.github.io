@@ -2,7 +2,7 @@
 
 This is my website. Right now it's just a static coming soon page, but I plan to update it in the future.
 
-![Screenshot](https://mackrusing.com/resources/github/screenshot.png)
+![Screenshot](https://mackrusing.com/resources/github/screenshot2.png)
 
 ## Is it useful?
 
