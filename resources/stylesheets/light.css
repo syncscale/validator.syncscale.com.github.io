@@ -3,3 +3,7 @@ body {
   background-color: white;
   color: black;
 }
+
+#light-theme-button {
+  display: none;
+}

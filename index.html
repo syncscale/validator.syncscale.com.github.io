@@ -13,16 +13,16 @@
     <!-- Icon -->
     <link rel="icon" href="./resources/icon/icon.png">
 
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
-    <link rel="stylesheet" type="text/css" href="./resources/css/dark.css" media="(prefers-color-scheme: dark)">
-    <link rel="stylesheet" type="text/css" href="./resources/css/light.css" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+    <!-- Scripts -->
+    <script type="text/javascript" src="resources/scripts/script.js"></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="./resources/stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="./resources/stylesheets/dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" type="text/css" href="./resources/stylesheets/light.css" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap">
-
-    <!-- Scripts -->
-    <script type="text/javascript" src="script.js"></script>
 
   </head>
 
@@ -35,7 +35,11 @@
     </main>
 
     <footer>
-      <h6>A Site() by Mack. | <a class="secondary-color" href="https://github.com/mackrusing/mackrusing.github.io">View on GitHub</a></h6>
+      <h6>A Site() by Mack. |
+        <a class="secondary-color" target="_blank" href="https://github.com/mackrusing/mackrusing.github.io">View on GitHub</a> |
+        <a id="dark-theme-button" class="secondary-color" href="#" onclick="changeTheme('./resources/stylesheets/dark.css')">Dark Theme</a>
+        <a id="light-theme-button" class="secondary-color" href="#" onclick="changeTheme('./resources/stylesheets/light.css')">Light Theme</a>
+      </h6>
     </footer>
 
   </body>
