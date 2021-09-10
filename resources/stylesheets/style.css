@@ -1,0 +1,235 @@
+
+/*===================================================*/
+/*=====================  Fonts  =====================*/
+/*===================================================*/
+
+/* iA Writer Duo */
+
+@font-face {
+  font-family: "iA Writer Duo";
+  src: url(./fonts/ia-writer-duo/ia-duo-regular.woff2);
+}
+
+@font-face {
+  font-family: "iA Writer Duo";
+  src: url(./fonts/ia-writer-duo/ia-duo-bold.woff2);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "iA Writer Duo";
+  src: url(./fonts/ia-writer-duo/ia-duo-italic.woff2);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "iA Writer Duo";
+  src: url(./fonts/ia-writer-duo/ia-duo-bolditalic.woff2);
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*==================================================*/
+/*====================  Styles  ====================*/
+/*==================================================*/
+
+/* CSS Reset & Body */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+body {
+  font-family: "iA Writer Duo";
+  background-color: #1E1E1E;
+  color: white;
+}
+
+/********** Main Containers ***********/
+
+nav {
+  padding: 30px 0;
+  margin: 0 0 20px 0;
+  background: #1A1A1A;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  padding: 30px 30px;
+  margin: 0 auto;
+}
+
+footer {
+  margin: 40px auto 20px auto;
+  text-align: center;
+}
+
+/*********** Bold & Italics ***********/
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/*************** Links ****************/
+
+a:link {
+  color: #00CCFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #00CCFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00A4CD;
+  text-decoration: none;
+}
+
+a:active {
+  color: #003D4D;
+  text-decoration: none;
+}
+
+/*********** Main Elements ************/
+
+main h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 25px 0 20px 0;
+}
+
+main h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 25px 0 15px 0;
+}
+
+main p {
+  line-height: 1.8em;
+  margin: 12px 0px;
+}
+
+main hr {
+  width: 100%;
+  background-color: #5A5A5A;
+  height: 1px;
+  margin: 35px 0;
+}
+
+
+
+#pfp {
+  margin: 20px 0 20px 0;
+}
+
+#socials p a {
+  margin: 0 15px 0 0;
+}
+
+h1 a:link {
+  text-decoration: none;
+  font-size: 29px;
+  color: white;
+  font-weight: bold;
+}
+
+h1 a:visited {
+  text-decoration: none;
+  font-size: 29px;
+  color: white;
+  font-weight: bold;
+}
+
+h1 a:hover {
+  text-decoration: underline;
+  font-size: 29px;
+  color: #CCCCCC;
+  font-weight: bold;
+}
+
+h1 a:active {
+  text-decoration: underline;
+  font-size: 29px;
+  color: rgb(150, 150, 150);
+  font-weight: bold;
+}
+
+.resize-img {
+  width: 100%;
+  height: 100%;
+  margin: 25px 0px;
+}
+
+/************ Nav Elements ************/
+
+nav a {
+  margin: 0 15px;
+}
+
+/********** Footer Elements ***********/
+
+footer p {
+  font-size: 10px;
+  color: #5A5A5A;
+  padding: 3px 0;
+}
+
+footer {
+  padding: 3px 30px;
+}
+
+#cc-license a:link {
+  text-decoration: underline;
+  font-size: 10px;
+  color: #5A5A5A;
+  font-weight: normal;
+}
+
+#cc-license a:visited {
+  text-decoration: underline;
+  font-size: 10px;
+  color: #5A5A5A;
+  font-weight: normal;
+}
+
+#cc-license a:hover {
+  text-decoration: underline;
+  font-size: 10px;
+  color: #5A5A5A;
+  font-weight: normal;
+}
+
+#cc-license a:active {
+  text-decoration: underline;
+  font-size: 10px;
+  color: #5A5A5A;
+  font-weight: normal;
+}
+
+/************** 404 Page **************/
+
+#page-not-found {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#page-not-found h1 {
+  font-size: 80px;
+  text-align: center;
+}
+
+#page-not-found p {
+  text-align: center;
+}
