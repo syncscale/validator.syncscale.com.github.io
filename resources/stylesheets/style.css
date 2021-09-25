@@ -188,28 +188,28 @@ footer {
   padding: 3px 30px;
 }
 
-#cc-license a:link {
+.license a:link {
   text-decoration: underline;
   font-size: 10px;
   color: #5A5A5A;
   font-weight: normal;
 }
 
-#cc-license a:visited {
+.license a:visited {
   text-decoration: underline;
   font-size: 10px;
   color: #5A5A5A;
   font-weight: normal;
 }
 
-#cc-license a:hover {
+.license a:hover {
   text-decoration: underline;
   font-size: 10px;
   color: #5A5A5A;
   font-weight: normal;
 }
 
-#cc-license a:active {
+.license a:active {
   text-decoration: underline;
   font-size: 10px;
   color: #5A5A5A;
